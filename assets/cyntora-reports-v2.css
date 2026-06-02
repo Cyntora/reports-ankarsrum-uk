@@ -673,7 +673,7 @@ section.page--dark .summary-block p { color: var(--ink-on-dark); }
 }
 .cover-notes li::before { content: none; }
 .cover-notes li:not(:last-child)::after {
-  content: " · "; color: rgba(255, 255, 255, 0.3); margin: 0 2px;
+  content: ""; margin: 0;
 }
 .cover-notes li:last-child:not(:only-child) {
   display: block; margin-top: 10px;
